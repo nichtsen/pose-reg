@@ -1,0 +1,12 @@
+dataset_type: "mpii"
+
+num_joints: 14
+all_joints: [[0, 5], [1, 4], [2, 3], [6, 11], [7, 10], [8, 9], [12], [13]]
+all_joints_names: ['ankle(踝)', 'knee(膝)', 'hip(臀)', 'wrist(腕)', 'elbow(肘)', 'shoulder(肩)', 'chin(颏)', 'forehead(额)']
+
+global_scale: 1.0
+init_weights: models/mpii/mpii-single-resnet-101
+location_refinement: true
+locref_stdev: 7.2801
+net_type: resnet_101
+scoremap_dir: test
